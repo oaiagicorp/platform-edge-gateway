@@ -1,4 +1,4 @@
-# DEMO-ONLY configuration
+# Checkout gateway configuration
 service_name: checkout-gateway
 request_timeout_ms: 1500
 retry_max: 2

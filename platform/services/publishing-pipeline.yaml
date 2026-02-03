@@ -1,6 +1,6 @@
-# DEMO-ONLY configuration
+# Publishing pipeline configuration
 pipeline_name: publishing-pipeline
-queue_name: demo.publishing
+queue_name: hermes.publishing
 retry_max: 3
 concurrency: 4
 batch_size: 50
