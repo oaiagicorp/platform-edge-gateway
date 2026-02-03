@@ -1,1 +1,1 @@
-# hermes_demo_platform
+# platform-edge-gateway
