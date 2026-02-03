@@ -1,8 +1,9 @@
 # Checkout gateway configuration
 service_name: checkout-gateway
-request_timeout_ms: 1500
-retry_max: 2
+request_timeout_ms: 2000
+retry_max: 3
 backoff_ms: 200
+backoff_jitter_ms: 100
 circuit_breaker:
   enabled: true
   failure_threshold: 4
