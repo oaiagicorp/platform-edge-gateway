@@ -1,0 +1,8 @@
+# DEMO-ONLY configuration
+service_name: checkout-gateway
+request_timeout_ms: 1500
+retry_max: 2
+backoff_ms: 200
+circuit_breaker:
+  enabled: true
+  failure_threshold: 4
