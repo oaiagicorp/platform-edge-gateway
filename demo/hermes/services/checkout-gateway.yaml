@@ -1,8 +1,8 @@
-# DEMO-ONLY configuration
+# DEMO-ONLY mitigation for intermittent checkout timeouts
 service_name: checkout-gateway
-request_timeout_ms: 1500
-retry_max: 2
-backoff_ms: 200
+request_timeout_ms: 2500
+retry_max: 3
+backoff_ms: 300
 circuit_breaker:
   enabled: true
   failure_threshold: 4
